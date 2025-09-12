@@ -12,19 +12,18 @@ a{ text-decoration: none; }
 a:hover, a:focus{ text-decoration: underline; }
 
 /* Navbar */
-.navbar-brand .logo-mark{ display:inline-block; width:1.75rem; height:1.75rem; margin-right:.5rem; vertical-align:-.35rem; }
+/* Navbar */
 .navbar{ box-shadow: 0 1px 0 rgba(16,42,67,.06); }
 
 /* Hero */
 .hero{
-  background: linear-gradient(135deg, var(--brand-bg), #08172b);
+  background: linear-gradient(rgba(11,31,58,.6), rgba(8,23,43,.6)), url('https://source.unsplash.com/1600x900/?sydney,harbour') center/cover no-repeat;
   color: #fff;
   position: relative;
   overflow: hidden;
 }
 .hero .eyebrow{ letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
 .hero .cta-btn{ border-width:2px; }
-.hero .trusted-logos img{ max-height: 28px; opacity: .8; }
 
 /* Sections */
 .section-muted{ background: #f7f9fc; }
