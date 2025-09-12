@@ -1,0 +1,57 @@
+
+:root{
+  --brand-bg: #0b1f3a;
+  --brand-accent: #1565c0;
+  --brand-accent-2: #00a3a3;
+  --brand-text: #102a43;
+  --brand-gold: #c9a227;
+}
+/* Global enhancements */
+body{ font-feature-settings: "ss01" on, "liga" on; }
+a{ text-decoration: none; }
+a:hover, a:focus{ text-decoration: underline; }
+
+/* Navbar */
+.navbar-brand .logo-mark{ display:inline-block; width:1.75rem; height:1.75rem; margin-right:.5rem; vertical-align:-.35rem; }
+.navbar{ box-shadow: 0 1px 0 rgba(16,42,67,.06); }
+
+/* Hero */
+.hero{
+  background: linear-gradient(135deg, var(--brand-bg), #08172b);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.hero .eyebrow{ letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.hero .cta-btn{ border-width:2px; }
+.hero .trusted-logos img{ max-height: 28px; opacity: .8; }
+
+/* Sections */
+.section-muted{ background: #f7f9fc; }
+.card-quiet{ border:1px solid rgba(8,23,43,.08); box-shadow: 0 1rem 2rem -1rem rgba(8,23,43,.08); }
+.lead-quiet{ color:#3d556b; }
+
+/* Footer */
+.site-footer{ background: #0d223f; color:#cdd7e1; }
+.site-footer a{ color:#cdd7e1; }
+.site-footer a:hover{ color:#fff; text-decoration: underline; }
+
+/* Utilities */
+.max-w-3xl{ max-width: 48rem; }
+.max-w-5xl{ max-width: 72rem; }
+.round{ border-radius: .75rem; }
+.shadow-soft{ box-shadow: 0 1.25rem 2.5rem -1.25rem rgba(0,0,0,.25); }
+
+/* Accessibility helpers */
+.skip-link{
+  position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;
+}
+.skip-link:focus{
+  position:static; width:auto; height:auto; padding:.5rem .75rem; background:#fff; border:2px solid var(--brand-accent);
+}
+
+#cookie-banner{
+  position: fixed; left:0; right:0; bottom:0; z-index: 1080;
+  background: rgba(13,34,63,.98); color:#fff; padding:.9rem 0; box-shadow: 0 -2px 12px rgba(0,0,0,.2);
+}
+#cookie-banner a{ color:#fff; text-decoration: underline; }

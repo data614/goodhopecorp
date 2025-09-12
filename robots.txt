@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://goodhopecorp.com/sitemap.xml
