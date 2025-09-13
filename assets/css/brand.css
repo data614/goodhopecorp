@@ -26,7 +26,7 @@ a:hover, a:focus{ text-decoration: underline; }
 .hero .cta-btn{ border-width:2px; }
 
 /* Sections */
-.section-muted{ background: #f7f9fc; }
+.section-muted{ background: #e6f2ff; }
 .card-quiet{ border:1px solid rgba(8,23,43,.08); box-shadow: 0 1rem 2rem -1rem rgba(8,23,43,.08); }
 .lead-quiet{ color:#3d556b; }
 
