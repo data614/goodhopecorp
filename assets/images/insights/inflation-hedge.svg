@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Inflation Hedge Illustration</title>
+  <desc id="desc">Stylised chart showing upward trending inflation-protected income.</desc>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2540"/>
+      <stop offset="100%" stop-color="#234f6c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gradient)" rx="24"/>
+  <g fill="none" stroke-width="6" stroke-linecap="round">
+    <path d="M80 300 L200 260 L300 220 L420 180 L520 140" stroke="#f6c667"/>
+    <path d="M80 320 L520 320" stroke="#345c7c"/>
+    <path d="M80 320 L80 120" stroke="#345c7c"/>
+  </g>
+  <g fill="#f6c667">
+    <circle cx="80" cy="300" r="10"/>
+    <circle cx="200" cy="260" r="10"/>
+    <circle cx="300" cy="220" r="10"/>
+    <circle cx="420" cy="180" r="10"/>
+    <circle cx="520" cy="140" r="10"/>
+  </g>
+  <text x="40" y="70" fill="#fef3d4" font-family="'Montserrat', 'Arial', sans-serif" font-size="32" font-weight="700">
+    Inflation-Linked Leases
+  </text>
+  <text x="40" y="110" fill="#ffe5a0" font-family="'Montserrat', 'Arial', sans-serif" font-size="20">
+    Indexed reviews stabilise portfolio real returns.
+  </text>
+</svg>

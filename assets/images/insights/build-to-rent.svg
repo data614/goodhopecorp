@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Build-to-Rent Illustration</title>
+  <desc id="desc">Stylised apartment towers with warm lighting to convey residential stability.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d3b5c"/>
+      <stop offset="100%" stop-color="#10243c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky)" rx="24"/>
+  <g transform="translate(80 60)">
+    <rect x="0" y="80" width="120" height="220" fill="#1f4d7a" rx="12"/>
+    <rect x="150" y="40" width="120" height="260" fill="#275e8f" rx="12"/>
+    <rect x="300" y="100" width="120" height="200" fill="#1c3f63" rx="12"/>
+    <g fill="#ffd27f">
+      <rect x="20" y="110" width="20" height="20" rx="3"/>
+      <rect x="60" y="110" width="20" height="20" rx="3"/>
+      <rect x="20" y="150" width="20" height="20" rx="3"/>
+      <rect x="60" y="150" width="20" height="20" rx="3"/>
+      <rect x="20" y="190" width="20" height="20" rx="3"/>
+      <rect x="60" y="190" width="20" height="20" rx="3"/>
+      <rect x="170" y="80" width="20" height="20" rx="3"/>
+      <rect x="210" y="80" width="20" height="20" rx="3"/>
+      <rect x="170" y="120" width="20" height="20" rx="3"/>
+      <rect x="210" y="120" width="20" height="20" rx="3"/>
+      <rect x="320" y="140" width="20" height="20" rx="3"/>
+      <rect x="360" y="140" width="20" height="20" rx="3"/>
+      <rect x="320" y="180" width="20" height="20" rx="3"/>
+      <rect x="360" y="180" width="20" height="20" rx="3"/>
+    </g>
+  </g>
+  <text x="40" y="70" fill="#f5fbff" font-family="'Montserrat', 'Arial', sans-serif" font-size="32" font-weight="700">
+    Build-to-Rent Occupancy
+  </text>
+  <text x="40" y="110" fill="#cbe4ff" font-family="'Montserrat', 'Arial', sans-serif" font-size="20">
+    Stabilised metro assets remain above 97% leased.
+  </text>
+</svg>

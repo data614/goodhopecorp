@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Energy Infrastructure Illustration</title>
+  <desc id="desc">Stylised turbines and transmission lines representing clean energy investment.</desc>
+  <defs>
+    <linearGradient id="dusk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12324f"/>
+      <stop offset="100%" stop-color="#1f6b7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#dusk)" rx="24"/>
+  <g stroke="#a7f2e4" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M60 320 H540" opacity="0.6"/>
+    <path d="M120 180 C200 130, 260 130, 340 180" opacity="0.4"/>
+  </g>
+  <g fill="#c6fff2">
+    <polygon points="160,260 180,180 200,260"/>
+    <polygon points="240,260 260,180 280,260"/>
+    <rect x="360" y="200" width="12" height="120" rx="4"/>
+    <rect x="420" y="180" width="12" height="140" rx="4"/>
+    <rect x="480" y="220" width="12" height="100" rx="4"/>
+  </g>
+  <g stroke="#c6fff2" stroke-width="4" stroke-linecap="round">
+    <line x1="366" y1="200" x2="366" y2="120"/>
+    <line x1="426" y1="180" x2="426" y2="100"/>
+    <line x1="486" y1="220" x2="486" y2="140"/>
+    <line x1="366" y1="140" x2="426" y2="120"/>
+    <line x1="426" y1="120" x2="486" y2="150"/>
+  </g>
+  <text x="40" y="70" fill="#e2fff7" font-family="'Montserrat', 'Arial', sans-serif" font-size="32" font-weight="700">
+    Transition Infrastructure
+  </text>
+  <text x="40" y="110" fill="#bcf5e6" font-family="'Montserrat', 'Arial', sans-serif" font-size="20">
+    Stable cash yields underwritten by policy.
+  </text>
+</svg>
